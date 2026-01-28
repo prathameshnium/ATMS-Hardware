@@ -1,16 +1,20 @@
 
 # Advanced Transport Measurement System (Supplementary Material)
+![Project Inception](https://img.shields.io/badge/Project_Inception-June_2022-blue?style=flat-square)
+![Project Age](https://img.shields.io/badge/Project_Age-3%2B_Years-success?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Operational-brightgreen?style=flat-square)
 
-The ATMS is an indigenously developed system designed for novel and advanced characterization, implemented using a low-cost experimental setup.
+The ATMS is an indigenously developed system designed for novel and advanced characterisation, implemented using a low-cost experimental setup.
 
-**Status:** Operational
 **Affiliation:** UGC-DAE Consortium for Scientific Research, Mumbai Centre & Savitribai Phule Pune University
+
 **Funding:** SERB-CRG Grant No. CRG/2022/005676
+
 **Facility In‑Charge:**  Dr. Sudip Mukherjee, Scientist‑F
 
 ### Overview
 
-The measurement system has been developed entirely in-house and is hereafter referred to as the Advanced Transport Measurement System, comprising cryogenic probes and associated software. The **[Python-based Instrument Control and Automation](https://github.com/prathameshnium/PICA-Python-Instrument-Control-and-Automation)** suite software is maintained in a separate repository, whereas the present repository is dedicated exclusively to hardware aspects.The repository serves as the digital archive for the **Supplementary Data** associated with the development of the modular cryogenic measurement platform described in the upcoming manuscript.
+The measurement system has been developed entirely in-house and is hereafter referred to as the Advanced Transport Measurement System, comprising cryogenic probes and associated software. The **[Python-based Instrument Control and Automation](https://github.com/prathameshnium/PICA-Python-Instrument-Control-and-Automation)** suite software is maintained in a separate repository, whereas the present repository is dedicated exclusively to hardware aspects. The repository serves as the digital archive for the **Supplementary Data** associated with the development of the modular cryogenic measurement platform described in the upcoming manuscript.
 The system is designed to provide high-precision, automated characterisation capabilities comparable to those of commercial platforms, and to serve as a low-cost, resource-efficient solution for scientific development.
 
 
