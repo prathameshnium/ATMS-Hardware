@@ -35,3 +35,7 @@ For technical inquiries, please create an issue in this repository.
 
 ### Acknowledgements
 We acknowledge the financial support provided under the SERB-CRG project grant No. CRG/2022/005676 from the Anusandhan National Research Foundation (ANRF), a statutory body of the Department of Science and Technology (DST), Government of India.
+
+---
+### Legal
+**Intellectual Property:** This repository contains only **supplementary data** and high-level descriptors. All proprietary files and details remain the intellectual property of **UGC-DAE CSR, Mumbai Centre**. The content is strictly limited to academic validation metrics and standard operating procedures for open research. No restricted, classified, or export-controlled technical data is hosted here
