@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this hardware design, supplementary data, or specifications, please cite it as below."
+title: "Advanced Transport Measurement System (Supplementary Material)"
+authors:
+  - family-names: "Deshmukh"
+    given-names: "Prathamesh"
+    orcid: "https://orcid.org/0009-0008-3278-0837"
+    affiliation: "UGC-DAE Consortium for Scientific Research, Mumbai Centre, India; Savitribai Phule Pune University, Pune, India"
+  - family-names: "Mukherjee"
+    given-names: "Sudip"
+    orcid: "https://orcid.org/0000-0003-4734-9157"
+    affiliation: "UGC-DAE Consortium for Scientific Research, Mumbai Centre, India; Savitribai Phule Pune University, Pune, India"
+    email: "sudipm@csr.res.in"
+url: "https://github.com/prathameshnium/ATMS-Hardware"
+date-released: 2026-01-28
