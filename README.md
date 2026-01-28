@@ -6,6 +6,7 @@ The ATMS is an indigenously developed system designed for novel and advanced cha
 **Status:** Operational
 **Affiliation:** UGC-DAE Consortium for Scientific Research, Mumbai Centre & Savitribai Phule Pune University
 **Funding:** SERB-CRG Grant No. CRG/2022/005676
+**Facility In‑Charge:**  Dr. Sudip Mukherjee, Scientist‑F
 
 ### Overview
 
@@ -24,3 +25,9 @@ The hardware consists of three distinct measurement inserts (probes) optimised f
 
 ### Contact
 For technical inquiries, please create an issue in this repository.
+
+### Links
+[UGC-DAE CSR Mumbai Facilities](https://www.csruserportal.com/Intro/csrMumbaiFacilities)
+
+### Acknowledgements
+We acknowledge the financial support provided under the SERB-CRG project grant No. CRG/2022/005676 from the Anusandhan National Research Foundation (ANRF), a statutory body of the Department of Science and Technology (DST), Government of India.
