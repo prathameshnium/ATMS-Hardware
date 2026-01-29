@@ -40,7 +40,7 @@ We acknowledge the financial support provided under the SERB-CRG project grant N
 ### Legal
 **Intellectual Property:** This repository contains only **supplementary data** and high-level descriptors. All proprietary files and details remain the intellectual property of **UGC-DAE CSR, Mumbai Centre**. The content is strictly limited to academic validation metrics and standard operating procedures for open research. No restricted, classified, or export-controlled technical data is hosted here
 
-### 📝 Cite this Repository
+### Cite this Repository
 If you utilise this hardware design or validation data, please cite:
 ```bibtex
 @misc{ATMS_Hardware_2026,
