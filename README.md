@@ -1,47 +1,65 @@
 
 # Advanced Transport Measurement System (Supplementary Material)
+
 ![Project Inception](https://img.shields.io/badge/Project_Inception-June_2022-blue?style=flat-square)
 ![Project Age](https://img.shields.io/badge/Project_Age-3%2B_Years-success?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Operational-brightgreen?style=flat-square)
+[![Software](https://img.shields.io/badge/Software-PICA_Suite-blue?style=flat-square)](https://github.com/prathameshnium/PICA-Python-Instrument-Control-and-Automation)
 
-The ATMS is an indigenously developed system designed for novel and advanced characterisation, implemented using a low-cost experimental setup.
+The ATMS is an indigenously developed system designed for novel and advanced characterisation, implemented using a low-cost, modular experimental setup.
 
-**Affiliation:** UGC-DAE Consortium for Scientific Research, Mumbai Centre & Savitribai Phule Pune University
-
-**Funding:** SERB-CRG Grant No. CRG/2022/005676
-
-**Facility In‑Charge:**  Dr. Sudip Mukherjee, Scientist‑F
-
-### Overview
-
-The measurement system has been developed entirely in-house and is hereafter referred to as the Advanced Transport Measurement System, comprising cryogenic probes and associated software. The **[Python-based Instrument Control and Automation](https://github.com/prathameshnium/PICA-Python-Instrument-Control-and-Automation)** suite software is maintained in a separate repository, whereas the present repository is dedicated exclusively to hardware aspects. The repository serves as the digital archive for the **Supplementary Data** associated with the development of the modular cryogenic measurement platform described in the upcoming manuscript.
-The system is designed to provide high-precision, automated characterisation capabilities comparable to those of commercial platforms, and to serve as a low-cost, resource-efficient solution for scientific development.
-
-
-### Facility Capabilities
-The hardware consists of three distinct measurement inserts (probes) optimised for operations in **liquid nitrogen (77 K - 320 K)** and **PPMS (5 K - 380 K and field upto 14 T)**  environments.
-
-**Measurement Modes:**
-1.  **Ultra-Low Resistance:** 4-Wire Delta Mode using Keithley 6221/2182.
-2.  **High Impedance:** Electrometry & Pyroelectric Current using Keithley 6517B.
-3.  **Dielectric and Magnetodielectric Spectroscopy:**  using Keysight E4980A.
-4.  **Pyroelectric Characterisation:** using Keithley 6517B
-
-### Contact
-For technical inquiries, please create an issue in this repository.
-
-### Links
-[UGC-DAE CSR Mumbai Facilities](https://www.csruserportal.com/Intro/csrMumbaiFacilities)
-
-### Acknowledgements
-We acknowledge the financial support provided under the SERB-CRG project grant No. CRG/2022/005676 from the Anusandhan National Research Foundation (ANRF), a statutory body of the Department of Science and Technology (DST), Government of India.
+**Affiliation:** UGC-DAE Consortium for Scientific Research, Mumbai Centre & Savitribai Phule Pune University  
+**Funding:** SERB-CRG Grant No. CRG/2022/005676  
+**Facility In‑Charge:** Dr. Sudip Mukherjee, Scientist‑F
 
 ---
-### Legal
-**Intellectual Property:** This repository contains only **supplementary data** and high-level descriptors. All proprietary files and details remain the intellectual property of **UGC-DAE CSR, Mumbai Centre**. The content is strictly limited to academic validation metrics and standard operating procedures for open research. No restricted, classified, or export-controlled technical data is hosted here
+
+## 1. Overview
+The measurement system has been developed entirely in-house and is hereafter referred to as the **Advanced Transport Measurement System (ATMS)**.
+
+This repository serves as the digital archive for the **Supplementary Data** and **Open Source Hardware Design** associated with the development of the modular cryogenic measurement platform described in the upcoming manuscript. It contains the Bill of Materials (BOM), wiring schematics, and mechanical assembly descriptors required to reproduce the system.
+
+The associated software, **[Python-based Instrument Control and Automation (PICA)](https://github.com/prathameshnium/PICA-Python-Instrument-Control-and-Automation)**, is maintained in a separate repository to ensure modularity.
+
+## 2. Facility Capabilities
+The hardware consists of three distinct measurement inserts (probes) optimised for operations in **Liquid Nitrogen (77 K - 320 K)** and **Quantum Design PPMS (5 K - 380 K, 14 T)** environments.
+
+### Measurement Modes
+1.  **Ultra-Low Resistance:** 4-Wire Delta Mode using Keithley 6221/2182.
+2.  **High Impedance:** Electrometry & Pyroelectric Current using Keithley 6517B.
+3.  **Dielectric and Magnetodielectric Spectroscopy:** Frequency-dependent profiling using Keysight E4980A.
+4.  **Pyroelectric Characterisation:** Spontaneous polarisation measurement using Keithley 6517B.
+
+## 3. System Modules
+The repository is organised into modules corresponding to specific probe designs:
+
+| Module Name | Environment | Primary Application | Status |
+| :--- | :--- | :--- | :--- |
+| **[Cryogenic Insert](./modules/cryo_probe)** | Liquid Nitrogen | Low-Noise Transport, Pyroelectric Current | **Active** |
+| **[PPMS Interface](./modules/ppms_insert)** | QD PPMS | Magnetodielectric, Hall Effect | **Active** |
+
+---
+
+## 4. Acknowledgements
+We acknowledge the financial support provided under the **SERB-CRG project grant No. CRG/2022/005676** from the **Anusandhan National Research Foundation (ANRF)**, a statutory body of the Department of Science and Technology (DST), Government of India.
+
+## 5. Legal & Licensing
+
+### Intellectual Property
+**Copyright © 2026 UGC-DAE Consortium for Scientific Research, Mumbai Centre.**
+
+This project is released as **Open Source Hardware** to facilitate academic reproducibility.
+* **Hardware Designs:** Licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](./LICENSE).
+* **Documentation:** Licensed under CC BY-SA 4.0.
+
+**Proprietary Notice:** This repository contains **supplementary data** and standard design descriptors. All proprietary institutional files remain the intellectual property of **UGC-DAE CSR, Mumbai Centre**. The content is strictly limited to academic validation metrics and standard operating procedures for open research. No restricted, classified, or export-controlled technical data is hosted here.
+
+### Disclaimer
+This project is not affiliated with, endorsed by, or connected to Quantum Design Inc. "PPMS" is a trademark of Quantum Design. The ATMS PPMS Interface Module is a custom accessory designed to operate with standard equipment.
 
 ### Cite this Repository
-If you utilise this hardware design or validation data, please cite:
+If you utilise this hardware design, assembly protocols, or validation data in your research, please cite:
+
 ```bibtex
 @misc{ATMS_Hardware_2026,
   author = {Deshmukh, Prathamesh and Mukherjee, Sudip},
@@ -51,3 +69,6 @@ If you utilise this hardware design or validation data, please cite:
   journal = {GitHub Repository},
   howpublished = {\url{[https://github.com/prathameshnium/ATMS-Hardware](https://github.com/prathameshnium/ATMS-Hardware)}}
 }
+
+```
+**Contact:** For technical inquiries, please create an [Issue](https://www.google.com/search?q=https://github.com/prathameshnium/ATMS-Hardware/issues) in this repository.
