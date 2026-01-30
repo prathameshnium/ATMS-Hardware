@@ -5,6 +5,7 @@
 ![Project Age](https://img.shields.io/badge/Project_Age-3%2B_Years-success?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Operational-brightgreen?style=flat-square)
 [![Software](https://img.shields.io/badge/Software-PICA_Suite-blue?style=flat-square)](https://github.com/prathameshnium/PICA-Python-Instrument-Control-and-Automation)
+![Docs Health](https://github.com/prathameshnium/ATMS-Hardware/actions/workflows/link-check.yml/badge.svg)
 
 The ATMS is an indigenously developed system designed for novel and advanced characterisation, implemented using a low-cost, modular experimental setup.
 
