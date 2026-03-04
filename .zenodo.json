@@ -1,0 +1,35 @@
+{
+  "title": "Advanced Transport Measurement System (ATMS): Supplementary Hardware Design",
+  "description": "Open source hardware design and supplementary data for the ATMS cryogenic platform. Includes Bill of Materials (BOM), wiring schematics, and mechanical assembly descriptors for the Liquid Nitrogen (77K) and PPMS modules. Designed at UGC-DAE CSR, Mumbai Centre.",
+  "creators": [
+    {
+      "name": "Deshmukh, Prathamesh",
+      "affiliation": "UGC-DAE Consortium for Scientific Research, Mumbai Centre",
+      "orcid": ""
+    },
+    {
+      "name": "Mukherjee, Sudip",
+      "affiliation": "UGC-DAE Consortium for Scientific Research, Mumbai Centre"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "cryogenics",
+    "instrumentation",
+    "open-hardware",
+    "transport-measurement",
+    "high-impedance"
+  ],
+  "grants": [
+    {
+      "id": "CRG/2022/005676",
+      "program": "Core Research Grant",
+      "funder": {
+        "name": "Science and Engineering Research Board (SERB)",
+        "acronym": "SERB"
+      }
+    }
+  ],
+  "upload_type": "dataset"
+}
